@@ -74,7 +74,7 @@ def leastSquareCalculator(input):
     return val
 
 #Appending data values from each frame to an array
-ball_vid_1 = cv2.VideoCapture('ball_video1.mp4')
+ball_vid_1 = cv2.VideoCapture('video1.mp4')
 success_1, image_frame_1 = ball_vid_1.read()
 c = 0
 x_ = []
@@ -94,7 +94,7 @@ while success_1:
 
 stack_ball_1 = np.vstack((x_, y_)).T
 
-ball_vid_2 = cv2.VideoCapture('ball_video2.mp4')
+ball_vid_2 = cv2.VideoCapture('video2.mp4')
 success_2, image = ball_vid_2.read()
 
 c1 = 0

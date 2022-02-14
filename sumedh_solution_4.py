@@ -1,4 +1,3 @@
-from ctypes.wintypes import HACCEL
 from this import d
 import numpy as np
 from numpy import diagonal, linalg as linear
